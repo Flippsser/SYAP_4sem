@@ -124,7 +124,7 @@ async function limitRequests<T>(tasks: (() => Promise<T>)[], limit: number): Pro
     return results;
 }
 
-// Пример использования
+
 const imageUrls = Array.from({ length: 10 }, (_, i) => `image${i + 1}.jpg`);
 const loadImage = (url: string): Promise<string> => {
     return new Promise((resolve) => {
