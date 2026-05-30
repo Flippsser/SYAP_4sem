@@ -1,0 +1,28 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.green {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.red {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.orange {
+  background-color: #ffedd5;
+  color: #9a3412;
+}
+
+.blue {
+  background-color: #dbeafe;
+  color: #1e40af;
+}

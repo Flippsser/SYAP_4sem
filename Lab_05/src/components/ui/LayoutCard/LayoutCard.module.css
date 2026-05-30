@@ -1,0 +1,26 @@
+.card {
+  width: 100%;
+  max-width: 520px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  padding: 16px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.content {
+  padding: 16px;
+}
+
+.footer {
+  padding: 16px;
+  border-top: 1px solid #e5e7eb;
+  background-color: #f9fafb;
+}
